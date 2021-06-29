@@ -1,0 +1,24 @@
+{
+  "name": "food-ordering-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^1.2.0",
+    "bookshelf-update": "^1.1.2",
+    "bunyan": "^1.8.15",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "knex": "^0.95.6",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
